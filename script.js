@@ -6,13 +6,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Custom icons for source and destination
 const sourceIcon = L.icon({
-  iconUrl: 'images/bike.png',
+  iconUrl: 'bike.png',
   iconSize: [32, 32],
   iconAnchor: [16, 32],
 });
 
 const destinationIcon = L.icon({
-  iconUrl: 'images/flag.png',
+  iconUrl: 'flag.png',
   iconSize: [32, 32],
   iconAnchor: [16, 32],
 });
