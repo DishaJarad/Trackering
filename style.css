@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  #map {
+    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  .leaflet-routing-container {
+    display: none !important;
+  }
